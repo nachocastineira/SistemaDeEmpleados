@@ -11,8 +11,9 @@ public class Empleado {
 	// Atributos//
 	private String nombre;
 	private Double salario;
-	private Integer fechaDeNacimiento;
+	private Integer fechaDeNacimiento; //Esta declarado como un Integer, uso solo el año de nacimiento
 	
+	  //Constructor
 	public Empleado (String nombre, Double salario, Integer fechaDeNacimiento)
 	{
 		this.nombre = nombre;

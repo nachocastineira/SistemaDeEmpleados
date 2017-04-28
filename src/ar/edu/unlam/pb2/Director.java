@@ -1,18 +1,18 @@
 package ar.edu.unlam.pb2;
 
-public class Director extends Empleado {
+public class Director extends Empleado { //heredo la clase padre
 	
 	private String cochera;
 	private Double salarioExtraParaGastosDeVehiculo;
 	
 	public Director (String nombre, Double salario, Integer fechaDeNacimiento, String cochera, Double salarioExtraParaGastosDeVehiculo)
 	{
-		super(nombre, salario, fechaDeNacimiento);
+		super(nombre, salario, fechaDeNacimiento); //heredo contructor de la clase padre
 		this.cochera = cochera;
 		this.salarioExtraParaGastosDeVehiculo = salarioExtraParaGastosDeVehiculo;
 	}
 
-	//Getter y Setter
+	// Get y Set//
 	public String getCochera() {
 		return cochera;
 	}
